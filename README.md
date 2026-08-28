@@ -1,6 +1,12 @@
 # ESP32-SN65HVD230-CAN
 
 <p align="center">
+  <img alt="platform: ESP-IDF" src="https://img.shields.io/badge/platform-ESP--IDF-70e1b2?style=flat-square&labelColor=0d2238">
+  <img alt="language: C" src="https://img.shields.io/badge/language-C-70e1b2?style=flat-square&labelColor=0d2238">
+  <img alt="license: MIT" src="https://img.shields.io/badge/license-MIT-f2bd68?style=flat-square&labelColor=0d2238">
+</p>
+
+<p align="center">
   <img src="doc/module.jpg" alt="A third-party SN65HVD230 breakout board"
        width="420">
   <br><sub>One example third-party breakout — boards vary, the datasheet does not</sub>
