@@ -89,28 +89,28 @@ bool brate_to_timing(uint32_t bitrate, twai_timing_config_t *timing)
 {
     switch (bitrate) {
         case CAN_BITRATE_25K:
-            *timing = TWAI_TIMING_CONFIG_25KBITS();
+            *timing = (twai_timing_config_t)TWAI_TIMING_CONFIG_25KBITS();
             return true;
         case CAN_BITRATE_50K:
-            *timing = TWAI_TIMING_CONFIG_50KBITS();
+            *timing = (twai_timing_config_t)TWAI_TIMING_CONFIG_50KBITS();
             return true;
         case CAN_BITRATE_100K:
-            *timing = TWAI_TIMING_CONFIG_100KBITS();
+            *timing = (twai_timing_config_t)TWAI_TIMING_CONFIG_100KBITS();
             return true;
         case CAN_BITRATE_125K:
-            *timing = TWAI_TIMING_CONFIG_125KBITS();
+            *timing = (twai_timing_config_t)TWAI_TIMING_CONFIG_125KBITS();
             return true;
         case CAN_BITRATE_250K:
-            *timing = TWAI_TIMING_CONFIG_250KBITS();
+            *timing = (twai_timing_config_t)TWAI_TIMING_CONFIG_250KBITS();
             return true;
         case CAN_BITRATE_500K:
-            *timing = TWAI_TIMING_CONFIG_500KBITS();
+            *timing = (twai_timing_config_t)TWAI_TIMING_CONFIG_500KBITS();
             return true;
         case CAN_BITRATE_800K:
-            *timing = TWAI_TIMING_CONFIG_800KBITS();
+            *timing = (twai_timing_config_t)TWAI_TIMING_CONFIG_800KBITS();
             return true;
         case CAN_BITRATE_1M:
-            *timing = TWAI_TIMING_CONFIG_1MBITS();
+            *timing = (twai_timing_config_t)TWAI_TIMING_CONFIG_1MBITS();
             return true;
         default:
             return false;
