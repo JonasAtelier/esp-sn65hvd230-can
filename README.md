@@ -19,6 +19,8 @@ Physical hardware validation is pending. Check the breakout’s pin labels and o
 
 ## Receive your first frame
 
+![Two ESP32 nodes connected through SN65HVD230 transceivers, with one 120-ohm resistor across CANH and CANL at each end. GPIO 5 drives D and GPIO 4 reads R on both nodes.](doc/two-node-wiring.png)
+
 1. From an ESP-IDF application folder, run `git clone https://github.com/JonasAtelier/esp-sn65hvd230-can.git components/hvd230_can`. Use the [receive example](examples/basic_receive.c) as your main component’s `app_main` source.
 2. For that example, connect transceiver **D → GPIO 5** (TX), **R → GPIO 4** (RX), VCC to 3.3 V, and GND and RS to ground. Connect CANH and CANL to their counterparts on the second node and use a shared ground. [Wiring and termination](CAN.md#wiring)
 3. Set the second node to **500 kbit/s** and have it transmit a frame. A second ESP32 can run the [transmit example](examples/basic_transmit.c).
