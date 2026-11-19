@@ -37,4 +37,4 @@ Physical hardware validation is pending. Check the breakout’s pin labels and o
 
 ## Reference
 
-[Public C API](include/hvd230can.h) · [Driver reference and limitations](CAN.md) · [MIT license](LICENSE) · [Jonas Atelier library index](https://github.com/JonasAtelier/jonas-atelier-libraries#library-search)
+[Public C API](include/hvd230can.h) · [Driver reference and limitations](CAN.md) · [GPL-3.0-only license](LICENSE) · [Jonas Atelier library index](https://github.com/JonasAtelier/jonas-atelier-libraries#library-search)
